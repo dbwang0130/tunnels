@@ -27,7 +27,7 @@ Thanks for considering a contribution! Here's the short version.
 
 ## 本地构建
 
-需要 Xcode 16+ / macOS 13+：
+需要 Xcode 16+ / macOS 14+：
 
 ```bash
 git clone <your-fork>

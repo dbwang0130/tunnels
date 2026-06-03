@@ -2,7 +2,7 @@
 
 > 一个原生 macOS 的 SSH 端口转发管理器。简单、稳定、免费。
 
-![macOS](https://img.shields.io/badge/macOS-13%2B-blue?logo=apple)
+![macOS](https://img.shields.io/badge/macOS-14%2B-blue?logo=apple)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Swift](https://img.shields.io/badge/Swift-5.10-orange?logo=swift)
 
@@ -39,7 +39,7 @@
 
 ### 方式 2：从源码构建
 
-需要 Xcode 16+ / macOS 13+。
+需要 Xcode 16+ / macOS 14+。
 
 ```bash
 git clone https://github.com/dbwang0130/tunnels.git
