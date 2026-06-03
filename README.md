@@ -35,15 +35,15 @@
 
 ### 方式 1：下载 DMG
 
-到 [Releases](https://github.com/YOUR_GITHUB_USERNAME/Tunnels/releases) 下载最新的 `Tunnels-x.x.dmg`，挂载后拖到 Applications。
+到 [Releases](https://github.com/dbwang0130/tunnels/releases) 下载最新的 `Tunnels-x.x.dmg`，挂载后拖到 Applications。
 
 ### 方式 2：从源码构建
 
 需要 Xcode 16+ / macOS 13+。
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/Tunnels.git
-cd Tunnels
+git clone https://github.com/dbwang0130/tunnels.git
+cd tunnels
 open Tunnels.xcodeproj
 # Cmd+R 运行
 ```
@@ -75,7 +75,7 @@ xcodebuild -project Tunnels.xcodeproj -scheme Tunnels \
 
 欢迎 Issue 和 PR。
 
-构建依赖见 [`Package.resolved`](#) (Xcode 自动管理 SPM 依赖)：
+构建依赖（Xcode 自动管理 SPM，`Package.resolved` 在本地构建时生成）：
 - [Citadel](https://github.com/orlandos-nl/Citadel) — Swift SSH 客户端
 - [swift-nio](https://github.com/apple/swift-nio) / [swift-nio-ssh](https://github.com/apple/swift-nio-ssh) — Apple 网络框架
 - [swift-crypto](https://github.com/apple/swift-crypto) — Apple 加密库
